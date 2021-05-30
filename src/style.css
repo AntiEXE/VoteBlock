@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(216, 240, 238);
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    background-color: rgb(87, 219, 219);
+    padding: 30px;
+    border-radius: 5px;
+}
+.title{
+    display: block;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: rgb(2, 2, 88);
+    color: wheat;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+form .user-details .input{
+    margin-bottom: 15px;
+    width: calc(100%/2- 20px);
+}
+form .input span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.user-details .input input{
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 2px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+form .button{
+    height: 45px;
+    margin: 35px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btn{
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background:brown;
+    color: yellow;
+  }
