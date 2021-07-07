@@ -17,18 +17,18 @@ Simple DApp that helps us conduct basic elections in afair manner using the bloc
 
 ### Usage:
 * Clone the repository
-* Install truffle suite globally
-    `npm install -g truffle`
-* Traverse to the cloned directory and run following commands
-     `truffle develop`
-     `compile`
-     `migrate`
+* Install truffle suite globally <br /> 
+    `npm install -g truffle` <br /> 
+* Traverse to the cloned directory and run following commands <br /> 
+     `truffle develop` <br /> 
+     `compile` <br /> 
+     `migrate` <br /> 
      
 * Install Metamask browser extension
-* Install and run Ganache and configure it to the ganache blockchain, which talks to the metamask at
- `localhost:7545`
-* Go to the home of the cloned directory and run:
- `npm run dev`
+* Install and run Ganache and configure it to the ganache blockchain, which talks to the metamask at <br /> 
+ `localhost:7545`<br /> 
+* Go to the home of the cloned directory and run: <br /> 
+ `npm run dev` <br /> 
 
 ### Future Goals:
 * Implementing it on a real blockchain.
